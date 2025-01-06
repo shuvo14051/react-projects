@@ -31,7 +31,7 @@ function App() {
                   simplify your daily tasks. Try them out now!
                 </p>
                 {/* Button to navigate to the Home component */}
-                <Link to="/home" className="btn btn-primary">
+                <Link to="/react-projects" className="btn btn-primary">
                   Explore collections
                 </Link>
               </div>
