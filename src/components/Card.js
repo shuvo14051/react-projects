@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 
 const Card = ({ title, image, description, link }) => {
   return (
@@ -20,9 +21,9 @@ const Card = ({ title, image, description, link }) => {
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>
-        <a href={link} className="btn btn-primary">
+        <Link to={link} className="btn btn-primary">
           Try It Out
-        </a>
+        </Link>
       </div>
     </div>
   );
