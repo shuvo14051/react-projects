@@ -41,7 +41,7 @@ function App() {
           {/* Other Pages without the Jumbotron */}
           <Route path="/text-utils" element={<TextUtils />} />
           <Route path="/todo" element={<Todo />} />
-          <Route path="/home" element={<Home />} />
+          {/* <Route path="/home" element={<Home />} /> */}
           <Route path="/react-projects" element={<Home />} />
           <Route path="/cgpa" element={<CGPACalculator />} />
           <Route path="/calculator" element={<CalculatorApp />} />

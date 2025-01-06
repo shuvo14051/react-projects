@@ -47,11 +47,11 @@ const Navbar = () => {
                 Calculator
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/unsplash-api">
                 Unsplash API
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
