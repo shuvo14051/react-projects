@@ -1,0 +1,81 @@
+.todo-container {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 60% !important;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.li-item {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.li-item:nth-child(odd) {
+  background-color: #b0cae4;
+}
+
+.li-item:nth-child(even) {
+  background-color: #bce8bb;
+}
+
+.li-item:hover {
+  background-color: #d1e7dd;
+  cursor: pointer;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 1px solid #ff5050;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+button:hover {
+  background-color: #ff5050;
+  color: white;
+  border-radius: 5px;
+}
+
+.add-btn {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
