@@ -17,7 +17,7 @@ function App() {
 
       {/* Jumbotron only on the main page */}
       <div className="container mt-4">
-        <Routes>
+        <Routes basename="/react-projects">
           {/* Jumbotron Section on the Home Page */}
           <Route
             path="/"
